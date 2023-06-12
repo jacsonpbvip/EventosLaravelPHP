@@ -75,10 +75,10 @@ Nesse sistema web utilizamos do Laravel PHP para a criação do mesmo, e utilize
 
 ## Pré-requisito
 
-Composer 2.5.8 
-Node v18.13.0
-PHP 8.0.28
-Xampp v3.3.0 Apache/MySQL
+- Composer 2.5.8 
+- Node v18.13.0
+- PHP 8.0.28
+- Xampp v3.3.0 Apache/MySQL
 
 ## Após clonar o projeto :
 
