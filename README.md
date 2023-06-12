@@ -90,14 +90,13 @@ Nesse sistema web utilizamos do Laravel PHP para a criação do mesmo, e utilize
     
     
     php artisan migrate
-    
-    
-    npm run dev
+
     
 
 ## Start
 -Na pasta do diretorio aberta pelo terminal digite:
-
+    
+    npm run dev
     php artisan serve
 
 Acesse a aplicação em:
