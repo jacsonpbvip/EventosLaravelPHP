@@ -90,10 +90,10 @@ Nesse sistema web utilizamos do Laravel PHP para a criação do mesmo, e utilize
     
     
     php artisan migrate
-    Cria os arquivos no banco de dados Mysql
+    
     
     npm run dev
-    Instala alguns requisitos que o sistema precisa do NODE
+    
 
 ## Start
 -Na pasta do diretorio aberta pelo terminal digite:
