@@ -66,3 +66,40 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+##Descrição do projeto
+
+Projeto foi desenvolvido para sacionar o requistos do trabalho final sw3, no qual o aluno erra livra para desenvolver uma aplicação web utilziando PHP.
+Nesse sistema web utilizamos do Laravel PHP para a criação do mesmo, e utilizei muitas da funcionalidades do mesmo para concluir o porjeto
+
+
+##Pré-requisito
+
+Composer 2.5.8 
+Node v18.13.0
+PHP 8.0.28
+Xampp v3.3.0 Apache/MySQL
+
+## Após clonar o projeto :
+
+    git clone https://github.com/jacsonpbvip/Eventos.git
+    inicie o serve Apashe e MySQL com o Xampp
+
+-Na pasta do Eventos Core aberta no terminal powershell digite o comando para instalar:
+    
+    
+    php artisan migrate
+    Cria os arquivos no banco de dados Mysql
+    
+    npm run dev
+    Instala alguns requisitos que o sistema precisa do NODE
+
+## Start
+-Na pasta do diretorio aberta pelo terminal digite:
+
+    php artisan serve
+
+Acesse a aplicação em:
+
+ Server running on [ http://127.0.0.1:8000 ].
+
