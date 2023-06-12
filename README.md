@@ -83,7 +83,8 @@ Xampp v3.3.0 Apache/MySQL
 ## Após clonar o projeto :
 
     git clone https://github.com/jacsonpbvip/Eventos.git
-    inicie o serve Apashe e MySQL com o Xampp
+   
+-Inicie o serve Apashe e MySQL com o Xampp  
 
 -Na pasta do Eventos Core aberta no terminal powershell digite o comando para instalar:
     
