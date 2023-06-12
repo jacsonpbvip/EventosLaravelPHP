@@ -1,0 +1,415 @@
+/* General */
+* {
+    font-family: 'Roboto';
+}
+
+body {
+    min-height: 100vh;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+header {
+    background-color: #FFF;
+    border-bottom: 1px solid #CCC;
+}
+
+.row {
+    margin: 0;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.btn-primary {    
+    background-color: rgb(31, 41, 55);
+    border: 2px solid #14120c;
+    margin: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #C28008;
+    border-color: #C28008;
+}
+
+/*  Create event/ Edit event */
+#image-preview img {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.form-group-img input {
+    margin: 5px;
+}
+
+.msg {
+    background-color: #D4EDDA;
+    color: #155724;
+    border: 1px solid #C3E6CB;
+    width: 100%;
+    margin-bottom: 0;
+    text-align: center;
+    padding: 10px;
+}
+
+.form-group-img {
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* navbar */
+#navbar img {
+    margin-left: 10px;
+    width: 100px;
+}
+
+.navbar-item {
+    margin-left: 10%;
+}
+
+#navbar {
+    background-color: #FFF;
+    padding: 2px;
+}
+
+#navbar a {
+    font-size: 15px;
+    color: #757575;
+}
+
+#navbar a:hover {
+    color: #f3efe9;
+}
+
+/* Search Container */
+.search-form {
+    display: flex;
+    align-items: center;
+}
+
+.search-form .form-control {
+    margin-right: 10px;
+}
+
+#search-container {
+    background-image: url("../img/festa.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    padding: 50px;
+    text-align: center;
+
+}
+
+#search-container h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #ffffff;
+    margin-bottom: 30px;
+    font-weight: 1200;
+}
+
+#search-container form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* Events list */
+#events-container {
+    padding: 1px;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+#events-container h2 {
+    text-align: center;
+    margin: 5%;
+}
+
+#events-container .subtitle {
+    text-align: center;
+    color: #757575;
+    margin-bottom: 80px;
+}
+
+#events-container .card {
+    text-align: center;
+    flex: 1 1 0;
+    height: 400px;
+    max-width: 250px;
+    border-radius: 10px;
+    padding: 0;
+    margin: 10px;
+}
+
+#events-container img {
+    max-height: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+/* Card */
+#cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cards-container .card {
+    width: 350px;
+    margin: 10px;
+    min-width: 250px;
+}
+
+@media (min-width: 768px) {
+    #cards-container .card {
+        flex: 0 0 calc(20% - 20px);
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+.card .card-date {
+    font-size: 12px;
+    color: #CCC;
+}
+
+.card .card-title {
+    color: #212121;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.card-participants {
+    font-size: 14px;
+    color: #757575;
+}
+
+/* footer */
+footer {
+    text-align: center;
+    background-color: #353E48;
+    color: #FFF;
+    padding: 30px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+#event-create-container {
+    padding: 30px
+}
+
+#event-create-container label {
+    font-weight: bold;
+    margin: 5%;
+}
+
+#event-create-container input,
+#event-create-container select,
+#event-create-container textarea {
+    font-size: 12px;
+}
+
+/* Contact page */
+.img-banner-contat{
+    margin-left: 30px;
+}
+.form-contact {
+    margin-top: 5%;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.contact-info {
+    margin-top: 5%;
+}
+
+#contact-description {
+    margin-top: 5%;
+}
+
+/* Event page */
+
+#info-container {
+    margin-top: 30px;
+}
+
+#image-container img {
+    margin-top: 5%;
+    border-radius: 10px;
+}
+
+#info-container h1 {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+#info-container p {
+    margin: 0;
+    font-size: 14px;
+    display: flex;
+}
+
+#info-container h2,
+#description-container h2 {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#info-container ion-icon {
+    font-size: 20px;
+    color: #F2A340;
+    margin-right: 5px;
+}
+
+#info-container #event-submit {
+    margin: 20px 0;
+}
+
+#items-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+#items-list li {
+    display: flex;
+}
+/* Edit Page Event*/
+
+.img-preview {
+    width: 100px;
+    margin-top: 20px;
+  }
+  
+
+/* Dashboard */
+#Dasboard {
+    margin-top: 50px;
+}
+
+.dashboard-title-container {
+    text-align: center;
+}
+
+.dashboard-events-container th {
+    width: 25%;
+}
+
+.dashboard-events-container form {
+    display: inline-block;
+}
+
+.btn {
+    margin: 2px;
+    width: 120px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-container .btn {
+    flex-grow: 1;
+}
+
+
+/* Mobile */
+@media (max-width: 1000px) {
+
+    /* card */
+    #cards-container .card {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-basis: 100%;
+    }
+
+    /* create Events */
+
+    .form-group-img input {
+        max-height: 100%;
+        margin: 5%;
+        text-align: center;
+    }
+
+    #event-create-container form {
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+
+    /* nav bar */
+    #navbar {
+        margin: 5%;
+        margin-left: 0%;
+        text-align: center;
+        text-rendering: geometricPrecision;
+        margin-right: 10%;
+    }
+
+    /* info event */
+
+    #info-container h1 {
+        margin: 25px;
+        text-align: center;
+        display: flex;
+    }
+
+    #description-container h3 {
+        align-items: center;
+    }
+
+    #info-container ion-icon {
+        text-align: center;
+    }
+
+    #info-container #event-submit {
+        margin-left: 29%;
+    }
+
+    /* contact */
+    .img-banner-contat{
+        display: flex;
+        margin: 20%;
+        margin-left: 28%;
+    }
+    .navbar-brand-contact {
+        margin-top: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Search */
+    #search-container form {
+        margin: 0;
+    }
+
+    .search-form {
+        margin-left: 3%;
+        text-align: center;
+        display: contents;
+        align-items: flex-start;
+    }
+
+    #search {
+        width: 100%;
+    }
+}

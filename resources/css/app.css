@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button {
+    padding: 5px;
+    text-size-adjust: 5px;
+    display: inline-block;
+    background-color: rgb(31, 41, 55);
+    color: white;    
+    text-decoration: none;
+    border-radius: 5px;
+}
