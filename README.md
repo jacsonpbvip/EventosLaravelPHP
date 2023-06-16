@@ -103,3 +103,7 @@ Acesse a aplicação em:
 
  Server running on [ http://127.0.0.1:8000 ].
 
+ ## Img do Projeto 
+<div aling = "center">
+https://github.com/jacsonpbvip/EventosLaravelPHP/issues/1#issue-1761153020
+</div>
