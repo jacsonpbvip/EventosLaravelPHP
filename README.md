@@ -86,7 +86,7 @@ Nesse sistema web utilizamos do Laravel PHP para a criação do mesmo, e utilize
    
 -Inicie o serve Apashe e MySQL com o Xampp  
 
--Na pasta do Eventos Core aberta no terminal powershell digite o comando para instalar:
+-Na pasta do Eventos Core aberta no terminal powershell digite o comando paa criar ou modificar o banco de dados :
     
     
     php artisan migrate
@@ -94,7 +94,7 @@ Nesse sistema web utilizamos do Laravel PHP para a criação do mesmo, e utilize
     
 
 ## Start
--Na pasta do diretorio aberta pelo terminal digite:
+-Com a pasta do diretorio aberta pelo terminal digite:
     
     npm run dev
     php artisan serve
