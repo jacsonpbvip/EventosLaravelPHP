@@ -69,8 +69,8 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 ## Descrição do projeto
 
-Projeto foi desenvolvido para sacionar o requistos do trabalho final sw3, no qual o aluno erra livra para desenvolver uma aplicação web utilziando PHP.
-Nesse sistema web utilizamos do Laravel PHP para a criação do mesmo, e utilizei muitas da funcionalidades do mesmo para concluir o porjeto
+Projeto foi desenvolvido para sacionar o requistos do trabalho final sw3, no qual o aluno era livra para desenvolver uma aplicação web utilziando PHP.
+Nesse sistema web utilizamos do Laravel PHP para a criação do mesmo, e utilizei muitas da funcionalidades concluir o porjeto
 
 
 ## Pré-requisito
