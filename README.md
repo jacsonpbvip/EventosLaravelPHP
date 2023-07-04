@@ -82,7 +82,7 @@ Nesse sistema web utilizamos do Laravel PHP para a criação do mesmo, e utilize
 
 ## Após clonar o projeto :
 
-    git clone https://github.com/jacsonpbvip/Eventos.git
+    git clone https://github.com/jacsonpbvip/EventosLaravelPHP
    
 -Inicie o serve Apashe e MySQL com o Xampp  
 
